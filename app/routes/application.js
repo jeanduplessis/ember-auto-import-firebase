@@ -4,7 +4,6 @@ import 'firebase/messaging';
 
 export default Route.extend({
     activate() {
-        console.log(firebase);
         console.log(firebase.messaging);
     }
 });
