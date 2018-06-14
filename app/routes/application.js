@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
-import firebase from 'firebase/app';
-import 'firebase/messaging';
+import firebase from 'npm:firebase/app';
+import 'npm:firebase/messaging';
 
 export default Route.extend({
     activate() {
